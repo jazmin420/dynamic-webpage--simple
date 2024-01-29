@@ -1,0 +1,15 @@
+@media screen and (max-width:1200px) {
+  .home {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .img-text {
+    flex-wrap:  wrap;
+    gap: 50px;
+  }
+  #footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+}

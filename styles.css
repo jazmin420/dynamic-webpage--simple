@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+/* section home */
+#home {
+  padding: 0 20% 10% 20%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+}
+.logo span {
+  color: rgb(27, 210, 216);
+}
+.login {
+  color: white;
+  
+}
+.login img {
+  height: 40px;
+  width: 40px;
+  background: none;
+}
+.login a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+}
+.login a:hover {
+  background: linear-gradient(rgb(241, 229, 229),white);
+  color: black;
+  border-radius: 10px;
+}
+.home {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px 0;
+}
+.home h1 {
+  color: rgb(27, 210, 216);
+  font-size: 70px;
+}
+.home span {
+  font-size: 30px;
+  color: white;
+  display: block;
+  padding-top: 50px;
+}
+.home img {
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+}
+.home button {
+  background: linear-gradient(rgb(27, 210, 216), rgb(35, 139, 143));
+  padding: 20px 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 30px;
+  font-weight: 600;
+}
+.home button:hover {
+  background: linear-gradient(rgb(66, 195, 199), rgb(101, 218, 222));
+}
+/* carousel */
+.carousel-heading {
+  border-top: 1px solid rgb(101, 218, 222);
+  padding-top: 20px;
+}
+.carousel-heading h2 {
+  font-size: 60px;
+  text-align: center;
+  color: rgb(27, 210, 216);
+  font-weight: 600;
+}
+.carousel-heading div {
+   font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.carousel-heading .fa-star {
+  padding: 0 5px;
+}
+.carousel-inner p {
+  color: white;
+}
+.carousel-inner {
+  padding: 50px 0;
+}
+.carousel-indicators {
+  margin-top: 200px;
+  background: none;
+  border-bottom: 1px solid rgb(101, 218, 222);
+}
+
+/* section how works */
+#how-works{
+  padding: 10% 20%;
+  border-top: 1px solid rgb(251, 246, 246);
+  border-bottom: 1px solid rgb(251, 246, 246);
+}
+.fit-goal h2 {
+  color: white;
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+.fit-goal img {
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+}
+.fit-goal img:hover {
+  box-shadow: 5px 2px 2px rgba(27, 210, 216, 0.793);
+}
+.img-text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.img-text div {
+  margin-left: 50px;
+}
+.img-text .fit-todo {
+  color: rgb(27, 210, 216);
+  font-size: 30px;
+  font-weight: 600;
+}
+.img-text .fit-details {
+  display: block;
+  color: white;
+}
+
+
+/* calculation javascript */
+#calculation {
+  padding: 10%;
+  color: white;
+}
+.bmi {
+  width: 50%;
+  margin: auto;
+}
+.bmi h6 {
+  font-size: 40px;
+  color: rgb(27, 210, 216);
+}
+form {
+  width: 50%;
+  margin: auto;
+}
+.bmi input {
+  display: block;
+  width: 100%;
+  padding: 20px 0;
+  border: 1px solid rgb(27, 210, 216);
+  border-radius: 5px;
+}
+::placeholder {
+  padding-left: 20px;
+}
+input[type = text] {
+  color: white;
+}
+.bmi button {
+  background-color: rgb(27, 210, 216);
+  color: black;
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+}
+.bmi button:hover {
+  background: linear-gradient(rgb(66, 195, 199), rgb(101, 218, 222));
+}
+#resultBmi {
+  color: red;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+
+
+/* footer section */
+#footer {
+  background-color: black;
+  gap: 20px;
+  padding: 5%;
+  color: whitesmoke;
+  border-top: 1px solid grey;
+}
+#footer div>h5 {
+  color: white;  
+}
+#footer h5>span {
+  color: blue;
+}
+.logo-footer {
+  width: 30%;
+}
+.footer-links {
+  width: 50%;
+}
+.footer-links a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+}
+.footer-links a:hover {
+  color: grey;
+}
+.footer .address {
+  width: 40%;
+}
+.footer .address {
+  width: 40%;
+}
+#footer .address>span {
+  color: white;
+  display: block;
+}
+.logo-footer .fa-brands {
+  color: white;
+  font-size: 35px;
+  padding: 10px;
+  border-radius: 100%;
+}
+.logo-footer .fa-brands:hover {
+  background-color: rgb(66, 195, 199);
+}
+.copyright-text {
+  font-size: 10px;
+  background-color: black;
+  color: white;
+  text-align:center;                                }

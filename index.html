@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dynamic diet-nutrition</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./mediaquery.css">
+</head>
+<body>
+  <section id="home">
+    <nav>
+      <div class="logo">Healthy<span>Fit</span></div>
+      <div class="login">
+        <a href="./login.html">
+          <img src="./assets/login.png" alt="">
+          Login
+        </a>
+      </div>
+    </nav>
+    <div class="home">
+      <div>
+        <h1>Reach your goals with HealthyFit
+          <span>Build healthy habits with the all-in-one food, exercise, and calorie tracker.</span>
+        </h1>
+        <button>Start Today</button>
+      </div>
+      <img src="./assets/pexels-mikhail-nilov-6740528.jpg" alt="">
+    </div>
+
+    <div class="carousel-heading">
+      <div>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      </div>
+      <h2>1 Million 5-Star Reviews!!</h2>
+    </div>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">  
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <p class="text-center">
+            “Love this app. It keeps me on track with my nutritional goals.”</p>
+        </div>
+        <div class="carousel-item">
+          <p class="text-center">“Can't lose weight and stay on track without it.”
+          </p>
+        </div>
+        <div class="carousel-item">
+          <p class="text-center">“Helped me get moving on my goals and tracking my weight loss and bodybuilding.”
+          </p>
+        </div>   
+        </div>
+       
+      <button class="carousel-control-prev visually-hidden" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next visually-hidden" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>2
+      </button>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2" ></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    </div>
+  </section>
+
+  <section id="how-works">
+   <div class="fit-goal">
+     <h2>Hit your health goals in 1-2-3</h2>
+     <div class="img-text">
+      <img src="./assets/food-eating.jpg" alt="">
+      <div>
+        <span class="fit-todo">Track food, fitness & fasting</span>
+        <sapn class="fit-details">Tracking calories and macros is easy with our barcode scanner and device integration.</sapn>
+      </div>
+     </div>
+     <div class="img-text">
+      <div>
+        <span class="fit-todo">Learn what works</span>
+        <sapn class="fit-details">Personalized nutrition insights reveal what's working so you can make smarter choices</sapn>
+      </div>
+      <img src="./assets/fit-measuring.jpg" alt="">
+     </div>
+     <div class="img-text">
+      <img src="./assets/water-drinking.jpg" alt="">
+      <div>
+        <span class="fit-todo">Change your habits and reach your goals</span>
+  <span class="fit-details">Now you have the tools and knowledge to build healthy habits for life.</span>
+      </div>
+     </div>
+    </div>
+  </section>
+
+  <section id="calculation">
+    <div class="bmi">
+      <h6>Calculate your BMI(Body Mass Index) here:</h6>
+      <p>Used to estimate your body fat and establish whether you are underweight, at your healthy weight, overweight, or have obesity</p>
+      
+        <input id="weight" type="text" placeholder="weight(kg)">
+        <input id="height" type="text" placeholder="height(m)">
+        <button onclick="calculateBMI()">Calculate BMI</button>
+        <label id="resultBmi" for=""></label>
+
+    </div>
+
+  </section>
+
+  <section id="footer" class="d-flex">
+    <div class="logo-footer">
+      <div class="logo">Healthy<span>Fit</span></div>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, laudantium praesentium. Fuga incidunt odio et nemo. Fugit temporibus
+      </p>
+      <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <div class="footer-links"> 
+      <a href="">About</a>
+      <a href="">Contact Us</a>
+      <a href="">What we do</a>
+      <a href="">Call Us</a>
+    </div>
+      <div class="footer-links"> 
+        <a href="">Food</a>
+        <a href="">Blog</a>
+        <a href="">Community</a>
+        <a href="">Support Center</a>
+      </div>
+    </div>
+   </section>
+   <div class="copyright-text">Copyright ©2024 All rights reserved||Healthyfit</div>
+  
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
